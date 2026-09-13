@@ -1,0 +1,7 @@
+.build/
+.swiftpm/
+Finder Rescue.app
+build/
+dist/
+*.dmg
+.DS_Store
