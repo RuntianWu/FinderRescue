@@ -41,7 +41,7 @@ struct AboutView: View {
             }
 
             VStack(spacing: 2) {
-                Text("Made by Runtian Wu · github.com/Micropeptide")
+                Text("Made by Runtian Wu · github.com/RuntianWu")
                 Text("© 2026 · MIT License")
             }
             .font(.caption)

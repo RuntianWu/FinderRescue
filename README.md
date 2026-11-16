@@ -61,7 +61,7 @@ Every threshold can be changed in **Auto-Rescue** settings.
 
 ## Installation
 
-Download `FinderRescue-1.0.0.dmg` from the [Releases page](https://github.com/Micropeptide/FinderRescue/releases), open it, and drag Finder Rescue into Applications.
+Download `FinderRescue-1.0.0.dmg` from the [Releases page](https://github.com/RuntianWu/FinderRescue/releases), open it, and drag Finder Rescue into Applications.
 
 Finder Rescue isn't notarized by Apple, so the first time you open it, right-click (or Control-click) the app and choose **Open**, then confirm. You only need to do this once.
 
@@ -99,7 +99,7 @@ open "finderrescue://resume"            # resume auto-rescue
 Finder Rescue is a Swift package with no external dependencies. It needs Xcode 16 or later.
 
 ```bash
-git clone https://github.com/Micropeptide/FinderRescue.git
+git clone https://github.com/RuntianWu/FinderRescue.git
 cd FinderRescue
 swift test               # run the unit tests
 ./build.sh               # builds "Finder Rescue.app" (universal) in the project root
@@ -118,4 +118,4 @@ Turn off **Open Finder Rescue at login** in Auto-Rescue settings, quit the app f
 
 MIT — see [LICENSE](LICENSE).
 
-Made by [Runtian Wu](https://runtian.uk) · more apps at [software.runtian.uk](https://software.runtian.uk) · [github.com/Micropeptide](https://github.com/Micropeptide)
+Made by [Runtian Wu](https://runtian.uk) · more apps at [software.runtian.uk](https://software.runtian.uk) · [github.com/RuntianWu](https://github.com/RuntianWu)

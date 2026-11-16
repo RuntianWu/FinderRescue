@@ -88,9 +88,9 @@ final class HotKey {
 @MainActor
 final class UpdateChecker: ObservableObject {
     static let shared = UpdateChecker()
-    static let repo = "Micropeptide/FinderRescue"
-    static let repoURL = URL(string: "https://github.com/Micropeptide/FinderRescue")!
-    static let releasesURL = URL(string: "https://github.com/Micropeptide/FinderRescue/releases")!
+    static let repo = "RuntianWu/FinderRescue"
+    static let repoURL = URL(string: "https://github.com/RuntianWu/FinderRescue")!
+    static let releasesURL = URL(string: "https://github.com/RuntianWu/FinderRescue/releases")!
 
     struct Update: Equatable {
         let version: String
